@@ -1,4 +1,4 @@
-import { EndToEndSection, HeroSection, ServicesSection, WhyChooseUs } from "./components"
+import { EndToEndSection, FeedbackSection, HeroSection, ServicesSection, WhyChooseUs } from "./components"
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <ServicesSection />
       <EndToEndSection />
       <WhyChooseUs />
+      <FeedbackSection />
     </div>
   )
 }

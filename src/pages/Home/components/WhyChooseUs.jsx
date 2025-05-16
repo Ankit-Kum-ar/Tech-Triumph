@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const WhyChooseUs = () => (
   <section className="relative w-full flex flex-col items-center py-12 px-4 bg-base-100 overflow-hidden">
     {/* Top Right Blob */}
-    <div className="absolute -top-16 right-64 w-72 h-72 bg-primary/10 rounded-full blur-2xl z-0 pointer-events-none"></div>
+    <div className="absolute right-64 w-72 h-72 bg-primary/10 rounded-full blur-2xl z-0 pointer-events-none"></div>
 
     <h2 className="text-2xl md:text-4xl font-bold text-neutral text-center z-10 mb-6">
       Why Choose Us

@@ -33,3 +33,20 @@ export const companies = [
   { src: "/logos/dropbox.png", alt: "Dropbox" },
   { src: "/logos/zoom.png", alt: "Zoom" },
 ];
+
+export const testimonials = [
+  {
+    name: "Jhony D",
+    handle: "@Jhony_D",
+    avatar: "/images/avatar1.png",
+    feedback:
+      "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+  },
+  {
+    name: "Jhony D",
+    handle: "@Jhony_D",
+    avatar: "/images/avatar1.png",
+    feedback:
+      "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+  },
+];
