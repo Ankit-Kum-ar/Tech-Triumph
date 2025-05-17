@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
 import ServiceCard from './components/ServiceCard';
-import { services } from '../../constant';
+import { serviceprovided } from '../../constant';
 
 const Service = () => {
 
@@ -10,7 +10,7 @@ const Service = () => {
     <div>
         <Hero />
         <div className="max-w-full p-4 mx-auto flex flex-wrap justify-center">
-        {services.map((service, index) => (
+        {serviceprovided.map((service, index) => (
           <ServiceCard key={index} {...service} index={index} />
         ))}
       </div>
