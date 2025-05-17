@@ -29,7 +29,7 @@ const FeedbackSection = () => (
     </p>
     <div className="w-full max-w-5xl flex flex-col md:flex-row gap-8 justify-center items-stretch relative z-10">
       {/* Left Decoration */}
-      <div className="hidden md:flex flex-col justify-center items-center bg-base-100 rounded-2xl border border-primary/20 min-w-[120px] max-w-[140px] mr-2">
+      <div className="hidden md:flex flex-col justify-center items-center bg-base-100 rounded-2xl  min-w-[120px] max-w-[140px] mr-2">
         <div className="flex flex-col gap-6 h-full py-10 px-4">
           <div className="w-2 h-10 bg-primary rounded-full"></div>
           <div className="w-2 h-10 bg-primary rounded-full"></div>
