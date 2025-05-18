@@ -14,7 +14,7 @@ const ServiceCard = ({ title, description, staticSrc, index }) => {
           className="h-72 object-contain hover:scale-105 transition-transform duration-300 ease-in-out"
         />
       </div>
-      <div className="w-full md:w-2/3 px-8">
+      <div className="w-full md:w-2/3 px-4 md:px-16">
         <h2 className="text-xl md:text-4xl font-semibold mb-2">{title}</h2>
         <p className="text-sm md:text-sm text-justify">{description}</p>
       </div>
