@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { companies, services } from "../../../constant";
+import { companies, services } from "../constant";
 
 const cardVariants = {
   initial: { opacity: 0, y: 40 },

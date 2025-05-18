@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contact" className="btn btn-ghost">
-              Conatct Us
+              Contact Us
             </Link>
           </li>
         </ul>

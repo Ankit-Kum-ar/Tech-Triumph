@@ -1,4 +1,5 @@
-import { EndToEndSection, FeedbackSection, HeroSection, ServicesSection, WhyChooseUs } from "./components"
+import { ServicesSection } from "../../components"
+import { EndToEndSection, FeedbackSection, HeroSection, WhyChooseUs } from "./components"
 
 const Home = () => {
   return (
