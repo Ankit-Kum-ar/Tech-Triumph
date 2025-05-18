@@ -1,7 +1,7 @@
 import React from 'react'
-import Hero from './components/Hero'
-import ServiceCard from './components/ServiceCard';
+
 import { serviceprovided } from '../../constant';
+import { Hero, ServiceCard } from './components';
 
 const Service = () => {
 
