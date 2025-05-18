@@ -69,7 +69,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="btn btn-ghost">
+            <Link to="/contactus" className="btn btn-ghost">
               Contact Us
             </Link>
           </li>
