@@ -9,7 +9,7 @@ const Service = () => {
   return (
     <div>
         <Hero />
-        <div className="max-w-full p-4 mx-auto flex flex-wrap justify-center">
+        <div className="max-w-5xl p-4 mx-auto flex flex-wrap justify-center">
         {serviceprovided.map((service, index) => (
           <ServiceCard key={index} {...service} index={index} />
         ))}
