@@ -35,10 +35,10 @@ const Navbar = () => {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/testimonials">Testimonials</Link>
+              <Link to="/blogs">Blog</Link>
             </li>
             <li>
-              <Link to="/faq">FAQ</Link>
+              <Link to="/contactus">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -64,13 +64,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/testimonials" className="btn btn-ghost">
-              Testimonials
+            <Link to="/blogs" className="btn btn-ghost">
+              Blog
             </Link>
           </li>
           <li>
-            <Link to="/faq" className="btn btn-ghost">
-              FAQ
+            <Link to="/contact" className="btn btn-ghost">
+              Conatct Us
             </Link>
           </li>
         </ul>
